@@ -1,0 +1,14 @@
+# Ignore environments and dependencies
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Ignore build files
+*.log
+*.db
+*.sqlite3
+
+# VS Code settings (optional)
+.vscode/
+.env
