@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 240px;
+  background: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1rem;
+}
+.main {
+  flex: 1;
+  overflow: auto;
+}
+.nav-link {
+  color: #333;
+  margin-bottom: .5rem;
+}
+.nav-link.active {
+  font-weight: 600;
+}
+.card-metrics .card {
+  border: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.table-container {
+  background: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
